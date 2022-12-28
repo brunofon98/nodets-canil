@@ -84,7 +84,17 @@ h2 {
 }
 
 .no-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
+}
+/* 404 ERROR */
+.list.e-404{
+    width: 100vw;
+    height: calc(100vh - 280px);
+    margin: 0;
 }
 .list {
     display: grid;
@@ -111,6 +121,14 @@ h2 {
     font-size: 13px;
     color: var(--lighter);
     margin-bottom: 3px;
+}
+/* ERROR 404 */
+.error-404{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+    margin-top: 20px;
 }
 
 footer {
